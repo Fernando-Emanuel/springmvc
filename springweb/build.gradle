@@ -4,11 +4,11 @@
 
 //mvc = Model View Controller. Toda lógica da aquisição, trabalha-se no controller (dentro do spring java)
 
-//Model = A responsabilidade dos models é representar o negócio. Também é responsável pelo acesso e manipulação dos dados na sua aplicação.
+//Model = A responsabilidade dos models é representar o negócio. Também é responsável pelo acesso e *manipulação dos dados* na sua aplicação.
 
-//View = Camada de apresentação, como será estruturado.
+//View = Camada de apresentação, como será estruturado. Apresentar dados (retorno)
 
-//Controller = É a camada de controle, responsável por ligar o model e a view, fazendo com que os models possam ser repassados para as views e vice-versa.
+//Controller = É a camada de controle, responsável por ligar o model e a view, fazendo com que os models possam ser repassados para as views e vice-versa. Regras do negócio.
 
 plugins {
     id 'org.springframework.boot' version '2.6.3'
